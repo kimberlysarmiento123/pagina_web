@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Música</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Utilización de Bootstrap:
+         Se empleó mediante la aplicación de clases predefinidas en los elementos HTML para estilizar y estructurar la página -->
+    
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#encabezado">La Música</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#encabezado">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#subtitulo-mundo">Música en el Mundo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#subtitulo-colombia">Música en Colombia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#autor">Autor</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <section>
+                    <h1 class="display-4 text-center">LA MÚSICA</h1>
+                    <p class="lead">La música es una forma de arte que utiliza el sonido como medio de expresión...</p>
+                    
+                    <!-- Géneros de música en el mundo -->
+                    <h2 id="subtitulo-mundo">Géneros de música en el mundo</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#rock">Rock</a></li>
+                        <li class="list-group-item"><a href="#jazz">Jazz</a></li>
+                        <li class="list-group-item"><a href="#blues">Blues</a></li>
+                        <li class="list-group-item"><a href="#reggae">Reggae</a></li>
+                        <li class="list-group-item"><a href="#hiphop">Hip Hop</a></li>
+                        <li class="list-group-item"><a href="#pop">Pop</a></li>
+                        <li class="list-group-item"><a href="#clasica">Clásica</a></li>
+                        <li class="list-group-item"><a href="#electronica">Electrónica</a></li>
+                        <li class="list-group-item"><a href="#country">Country</a></li>
+                        <li class="list-group-item"><a href="#folk">Folk</a></li>
+                    </ul>
+
+                    <!-- Géneros de música en Colombia -->
+                    <h2 id="subtitulo-colombia">Géneros de música en Colombia</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#vallenato">Vallenato</a></li>
+                        <li class="list-group-item"><a href="#cumbia">Cumbia</a></li>
+                        <li class="list-group-item"><a href="#joropo">Joropo</a></li>
+                        <li class="list-group-item"><a href="#bambuco">Bambuco</a></li>
+                        <li class="list-group-item"><a href="#champeta">Champeta</a></li>
+                        <li class="list-group-item"><a href="#mapale">Mapalé</a></li>
+                        <li class="list-group-item"><a href="#porro">Porro</a></li>
+                        <li class="list-group-item"><a href="#guabina">Guabina</a></li>
+                        <li class="list-group-item"><a href="#currulao">Currulao</a></li>
+                        <li class="list-group-item"><a href="#pasillo">Pasillo</a></li>
+                    </ul>
+
+                    <!-- Tabla de géneros -->
+                    <table class="table table-striped table-bordered text-center mt-4">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Género</th>
+                                <th>Origen</th>
+                                <th>Características</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="rock">
+                                <td>Rock</td>
+                                <td>Estados Unidos</td>
+                                <td>Guitarras eléctricas, batería, letras rebeldes</td>
+                            </tr>
+                            <tr id="jazz">
+                                <td>Jazz</td>
+                                <td>Estados Unidos</td>
+                                <td>Improvisación, ritmos complejos</td>
+                            </tr>
+                            <tr id="blues">
+                                <td>Blues</td>
+                                <td>Estados Unidos</td>
+                                <td>Melancolía, uso de escalas pentatónicas</td>
+                            </tr>
+                            <tr id="reggae">
+                                <td>Reggae</td>
+                                <td>Jamaica</td>
+                                <td>Ritmo relajado, letras sociales</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+
+            <!-- Barra Lateral -->
+            <aside class="col-lg-4">
+                <h3 id="autor">Autor</h3>
+                <p><strong>Nombre:</strong> Jeinn Kimberly Contreras Sarmiento</p>
+                <p><strong>Grado:</strong> Décimo</p>
+                <p><strong>Correo:</strong> kimberlysarmiento864@gmail.com</p>
+                <p><strong>Institución:</strong> Colegio Skolmi</p>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-3">
+        Jeinn Kimberly Contreras Sarmiento, Décimo grado...
+    </footer>
+</body>
+
+</html>
